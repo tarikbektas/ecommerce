@@ -1,0 +1,110 @@
+.header-main{
+    width: 100%;
+    min-height: 30%;
+    background-color: aliceblue;
+    display: flex;
+
+}
+.logo{
+    width: 85%;
+    object-fit: contain;
+    height: 109%;
+}
+.logo-main{
+ 
+    margin-left: 1%;
+    width: 10%;
+    height: 25%;
+}
+.header-right{
+    padding-left: 2%;
+    width: 100%;
+    width: 100%;
+
+}
+.header-right-bottom{
+    padding: 1%;
+    background-color: #00715d;
+    border-top-left-radius: 15px;
+}
+ 
+.header-right-top-left-bar-img{
+    width: 15%;
+    margin-left: 4%;
+}
+ 
+
+ .header-right-top-left-bar-text{
+    font-family: 'Caveat' ;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0 !important;
+    margin-left: 2%;
+ }
+
+ .header-right-icons{
+    width: 19%;
+ }
+ .headar-right-top-right-area-main{
+    margin-left: 15%;
+ }
+
+  
+ .header-info-area img{
+    width: 18%;
+    
+ }
+.header-info-area-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0 !important;
+    margin-left: 1%;
+    font-family: 'Caveat' ;
+    font-size: 26px;
+}
+ 
+.header-info-area-title{
+    margin-bottom: 0 !important;
+    font-size: 13px;
+}
+
+.header-info-area-main{
+    margin-left: 1.6%;
+}
+ 
+ .header-social-media-logo{
+    width: 55%;
+ }
+ .header-social-media-area{
+    display: flex;
+    margin: auto;
+    
+ }
+ .social-media-item{
+    width:50%;
+ }
+
+ .header-social-media-a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ }
+ .header-menu-main{
+    width: 60%;
+ }
+ .header-search-box{
+    width: 100%;
+    color: red;
+    padding: 10px;
+ }
+ .header-search-input{
+    width: 100%;
+    height: 35px;
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 25px;
+ }
