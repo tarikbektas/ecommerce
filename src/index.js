@@ -4,6 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router } from "react-router-dom";
+import 'rsuite/dist/rsuite.min.css';
+import 'primereact/resources/themes/lara-light-indigo/theme.css';   
+import 'primereact/resources/primereact.min.css';                   
+import 'primeicons/primeicons.css';  
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";        
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  <Router>

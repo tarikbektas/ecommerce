@@ -1,26 +1,34 @@
-import React from 'react'
+
+import React, { useState } from 'react';
 import '../partials/partials.css'
-const DropDownMenu = ({categoryName}) => {
- 
-  
+import DropDownMenu from './DropDownMenu';
+
+const Menu = ({ categoryName, categories }) => {
+  const [openCategory, setOpenCategory] = useState(null);
+
+  const toggleCategory = (index) => {
+    setOpenCategory(openCategory === index ? null : index);
+  };
+
   return (
-    <div>
-      <div className="dropdown">
-        <button className="dropdown-button">
-          {categoryName}
-         </button>
-        <div className="dropdown-content">
-        <div className='row'>
-          <div className='col-8'>
-            <img className='category-main-image' src="https://vertacert.com/wp-content/uploads/2024/03/ELEKTRIKLI-EV-ALETLERI-VE-ELEKTRONIK-CIHAZLAR-CE-BELGESI-1024x1024.png" alt="" />
-          </div>
+    <div className="menu-container d-flex" >
+      {categories.map((category, index) => (
+        <div key={index} className="menu-item">
+          <button className="dropbtn" onClick={() => toggleCategory(index)}>
+            {category.name}
+          </button>
+          {openCategory === index && (
+            <div  className="menu-dropdown">
+                   <DropDownMenu onMauseLeave={toggleCategory}></DropDownMenu> 
+            </div>
+          )}
         </div>
-        </div>
-      </div>
-
-
+      ))}
     </div>
-  )
-}
+  );
+};
 
-export default DropDownMenu
+export default Menu;
+
+ 
+ 
