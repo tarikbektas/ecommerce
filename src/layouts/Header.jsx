@@ -91,7 +91,9 @@ const Header = () => {
              
               <div className="header-basket  d-flex">
                 <a href="/login" className="header-login-a">
+                <Link to={'/login'}>
                   <SfIconPerson className="text-white header-user-icon" size="xl"></SfIconPerson>
+                  </Link>
                 </a>
                 <DrawerBasket></DrawerBasket>
               </div>

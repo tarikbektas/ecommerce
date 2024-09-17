@@ -5,7 +5,7 @@ import Card from './ProductCard';
 
 const HomeProductList = () => {
   const [products, setProducts] = useState([]); // Tüm ürünleri tutar
-  const [visibleProducts, setVisibleProducts] = useState(12); // Görünen ürün sayısı (3 satır x 4 ürün = 12 ürün)
+  const [visibleProducts, setVisibleProducts] = useState(8); // Görünen ürün sayısı (3 satır x 4 ürün = 12 ürün)
   const [loading, setLoading] = useState(false); // Yükleme durumu kontrolü
 
   // API'den ürünleri al

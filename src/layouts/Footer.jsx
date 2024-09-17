@@ -40,6 +40,7 @@ const Footer = () => {
         <div className=" footer-items-contact" style={{ flexDirection: 'column' }}>
           <h5>İletişim</h5>
           <ul style={{ width: '79%' }} className='footer-ul'>
+              
             <li><i class="fa-solid fa-house mx-1" style={{ fontSize: '20px' }}></i> Mevlana Mahallesi Bakırpınar Sokak Bafra/Samsun</li>
             <li><i class="fa-brands fa-whatsapp mx-1" style={{ fontSize: '20px' }}></i> 0512 412 2352
             </li>

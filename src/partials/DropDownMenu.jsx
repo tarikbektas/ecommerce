@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const DropDownMenu = () => {
   return (
@@ -11,12 +12,14 @@ const DropDownMenu = () => {
     >
       <div className='col-4'>
         <ul>
-          <li>Alt Katagori 1</li>
-          <li>Alt Katagori 2</li>
-          <li>Alt Katagori 3</li>
-          <li>Alt Katagori 4</li>
-          <li>Alt Katagori 5</li>
-          <li>Alt Katagori 6</li>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 1</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 2</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 3</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 4</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 5</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 6</li></Link>
+          <Link to={'/category/elektronik'}><li>Alt Katagori 7</li></Link>
+
         </ul>
       </div>
  
