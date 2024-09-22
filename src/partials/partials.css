@@ -329,3 +329,10 @@ body {
   grid-template-columns: repeat(4, 1fr); /* 4 sütun */
   gap: 16px;
 }
+
+.filter-panel-main{
+  margin: 25px;
+}
+.MuiAccordionDetails-root {
+  display: flex !important;
+}
